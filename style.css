@@ -1,0 +1,26 @@
+body{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.bar{
+    max-width: 70%;
+    width: 20em;
+    height: 2em;
+    border: 1px solid black;
+    margin: auto;
+}
+.dynamicBar{
+    background: #1eb023;
+    height: 100%;
+
+}
+.timers{
+    display: flex;
+}
+.timer{
+    width: 49%;
+    display: flex;
+    
+}

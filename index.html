@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Work Time</title>
+    <script src="script.js" defer ></script>
+    <link href="style.css" rel="stylesheet">
+	</head>
+	<body onload="updateClock()">
+        <div class="con">
+
+            <div class="timers">
+                <div class="timer">
+                    Początek pracy:<div id="startWork"></div>
+                </div>
+                <div class="timer">
+                    Prace skończysz o:<div id="workEnd"></div>
+                </div>
+            </div>
+            <div class="bar">
+                <div id="dynamicBar" class="dynamicBar"></div>
+            </div>
+            <div class="watch" id="watch"></div>
+            <div class="buttonStart"><button id="getTimeButton">Start</button></div>
+            <input type="number" id="timeInput">
+        </div>
+	</body>
+</html>
