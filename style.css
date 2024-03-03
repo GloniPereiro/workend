@@ -1,26 +1,65 @@
 body{
     font-size: 1.5em;
     text-align: center;
+    margin: 0;
+    font-family: "Arial Narrow";
+    color:#fb9b8ad4 ;
     
+    background-image: url('bg1.jpg');
+    background-size: cover; /* Dopasowanie rozmiaru obrazu do całego tła */
+    background-repeat: no-repeat; /* Wyłączenie powtarzania obrazu */
+    background-position: center; /* Wyśrodkowanie obrazu */
 }
+.con{
+    height: 100vh;
+    width: 100%;
 
+}
+.main{
+    height: 95%;
+}
+.shadow{
+    width: 80%;
+    margin: auto;
+    border-radius: 1.5em;
+    background: #d8e2d936;
+    background: linear-gradient(to top right, #fafcfb15, #d8e2d94a );
+    height: 100%;
+}
+/*Pomyslec o roznych motywach i ich edycji*/
+.timers{
+    display: flex;
+    font-size: 0.7em;
+    margin: 0;
+    padding-top: 0.7em;
+}
+.timer{
+    width: 50%;   
+}
 .bar{
     max-width: 70%;
     width: 20em;
     height: 2em;
-    border: 1px solid black;
+    border: 0.5px solid black ;
     margin: auto;
+    border-radius: 0.7em;
+    margin-top: 5px;
 }
 .dynamicBar{
     background: #1eb023;
     height: 100%;
+    border-radius: 0.7em;
+}
+.watch{
+    font-size: 5em;
+}
+input{
+    background-color: #1eb0232b;
+}
 
-}
-.timers{
-    display: flex;
-}
-.timer{
-    width: 49%;
-    display: flex;
-    
+.foot{
+    font-size: 0.2em;
+    bottom: 0;
+    height: 5%;
+    color: rgba(255, 255, 255, 0.541);
 }
